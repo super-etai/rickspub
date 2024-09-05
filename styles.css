@@ -1,0 +1,155 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333; /* Dunkelgrau */
+}
+
+
+
+#rickroll {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid pink;
+
+}
+#video-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#popup {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    color: white;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+#popup-content {
+    background-color: darkblue;
+    padding: 40px;
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+#popup button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#popup button:hover {
+    background-color: lightgreen;
+}
+
+
+
+#left-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 350px;
+    height: 100%;
+    flex-direction: column;
+    z-index: 1;
+}
+#left-sidebar img {
+    width: 350px;
+    height: auto;
+}
+#right-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 350px;
+    height: 100%;
+    flex-direction: column;
+    z-index: 1;
+}
+#right-sidebar img {
+    width: 350px;
+    height: auto;
+}
+
+
+
+
+.stopblock {
+    display: flex;
+    position: fixed;
+    width: 700px;
+    height: 500px;
+    z-index: 1;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#left-sidebar2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 350px;
+    height: 100%;
+    flex-direction: column;
+}
+#left-sidebar2 img {
+    width: 350px;
+    height: auto;
+}
+#right-sidebar2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 350px;
+    height: 100%;
+    flex-direction: column;
+}
+#right-sidebar2 img {
+    width: 350px;
+    height: auto;
+}
+
+
+
+
+#piratehead {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+#imperialhead {
+    display: none;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    color: gold;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    z-index: 3;
+}
